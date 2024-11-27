@@ -1,5 +1,5 @@
 
-# Phi 2 Instruct
+# Phi 2 SFT and DPO
 
 https://huggingface.co/rasyosef/phi-2-instruct-v0.1
 
