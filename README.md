@@ -10,6 +10,7 @@ The model has underwent a post-training process that incorporates both **supervi
 - Supervised Fine-Tuning
   - SFT Model: [phi-2-sft](https://huggingface.co/rasyosef/phi-2-sft-openhermes-128k-v2)
   - Used 128,000 instruction, response pairs from the [teknium/OpenHermes-2.5](https://huggingface.co/datasets/teknium/OpenHermes-2.5) dataset
+  - Code: [Phi_2_SFT_LoRA.ipynb](https://github.com/rasyosef/phi-2-sft-and-dpo/blob/main/notebooks/Phi_2_SFT_LoRA.ipynb)
 
 - Direct Preference Optimization (DPO)
   - LoRA Adapter: [phi-2-dpo](https://huggingface.co/rasyosef/phi-2-openhermes-128k-v2-dpo-combined)
@@ -17,6 +18,7 @@ The model has underwent a post-training process that incorporates both **supervi
     - [HuggingFaceH4/ultrafeedback_binarized](https://huggingface.co/datasets/HuggingFaceH4/ultrafeedback_binarized)
     - [argilla/distilabel-intel-orca-dpo-pairs](https://huggingface.co/datasets/argilla/distilabel-intel-orca-dpo-pairs)
     - [argilla/distilabel-math-preference-dpo](https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo)
+  - Code: [Phi_2_DPO_LoRA.ipynb](https://github.com/rasyosef/phi-2-sft-and-dpo/blob/main/notebooks/Phi_2_DPO_LoRA.ipynb)
 
 - Final Merged Model
     - https://huggingface.co/rasyosef/phi-2-instruct-v0.1
